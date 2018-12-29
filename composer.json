@@ -1,0 +1,24 @@
+{
+    "name": "mtheprogrammer/elastic-indexer",
+    "description": "Indexer for easy and efficient document persisting to ElasticSearch.",
+    "keywords": ["elasticsearch", "mtp", "indexer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Chadała",
+            "email": "maciejcha@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MTheProgrammer\\ElasticIndexer\\": "src/"
+        }
+    }
+}
